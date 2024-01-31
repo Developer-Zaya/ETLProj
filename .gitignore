@@ -1,0 +1,21 @@
+# Docker
+## Ignore temporary Docker files
+*.log
+*.tmp
+*.tar
+
+## Ignore local data volumes
+data/
+
+# Python
+## Ignore Python compiled files and virtual environments
+__pycache__/
+*.pyc
+.env
+venv/
+.env.local
+
+# Apache Airflow
+## Ignore logs and other runtime files
+logs/
+dags/__pycache__/
